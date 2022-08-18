@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fonts/DejaVuSans.ttf</file>
+        <file>images/fuel-icon.png</file>
+        <file>images/temperature-icon.png</file>
+        <file>qml/dashboard.qml</file>
+        <file>qml/DashboardGaugeStyle.qml</file>
+        <file>qml/IconGaugeStyle.qml</file>
+        <file>qml/TachometerStyle.qml</file>
+        <file>qml/TurnIndicator.qml</file>
+        <file>qml/ValueSource.qml</file>
+        <file>images/big_needle.png</file>
+        <file>images/battery.png</file>
+        <file>images/coolant.png</file>
+        <file>images/fuel.png</file>
+        <file>images/gauge_background.png</file>
+        <file>images/gauge_foreground.png</file>
+        <file>images/high_beam.png</file>
+        <file>images/left_indicator.png</file>
+        <file>images/left_needle.png</file>
+        <file>images/low_beam.png</file>
+        <file>images/mil.png</file>
+        <file>images/oil.png</file>
+        <file>images/reset.png</file>
+        <file>images/right_indicator.png</file>
+        <file>images/right_needle.png</file>
+        <file>images/speedometer_background.png</file>
+        <file>qml/SpeedometerStyle.qml</file>
+    </qresource>
+</RCC>
