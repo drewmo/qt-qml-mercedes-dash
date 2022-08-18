@@ -1,6 +1,16 @@
 # QtCreator QML based OBDII connected Mercedes gauge cluster. Uses a PCAN hardware device to poll engine data and render the OEM styled gauages.
 Raspberry Pi based Digital Gauge Cluster
 
+## Projects used to setup Ubuntu for development and cross compiling:
+- https://github.com/UvinduW/Cross-Compiling-Qt-for-Raspberry-Pi-4
+- https://www.interelectronix.com/configuring-qt-creator-ubuntu-20-lts-cross-compilation.html
+- https://www.interelectronix.com/qt-515-cross-compilation-raspberry-compute-module-4-ubuntu-20-lts.html
+- Original inspiration from https://github.com/joshellissh/pi-dgc
+
+## Project info
+
+Originally I was going with a setup like @joshellissh was using for his digital cluster gauage (V1), but I needed to rebase my project to QtCreator [QML](https://doc.qt.io/qt-5/qmlapplications.html). The main reason is I needed to be able to render a vertical style cluster gauge and QML supported rotating the display out of the box. I worked from the [example project](https://doc.qt.io/qt-5/qtquickextras-dashboard-example.html) included with QtCreator to customize the gauage to my needs.
+
 Setup steps on Buster Lite:
 - raspi-config / Boot Options / Console Autologin
 - `sudo apt-get install libgles2`
