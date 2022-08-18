@@ -1,6 +1,8 @@
 # QtCreator QML based OBDII connected Mercedes gauge cluster. Uses a PCAN hardware device to poll engine data and render the OEM styled gauages.
 Raspberry Pi based Digital Gauge Cluster
 
+![Mercedes Gauage Cluster Render Image](/images/Mercedes%20Gauage%20Cluster%20Render.jpg)
+
 ## Projects used to setup Ubuntu for development and cross compiling:
 - https://github.com/UvinduW/Cross-Compiling-Qt-for-Raspberry-Pi-4
 - https://www.interelectronix.com/configuring-qt-creator-ubuntu-20-lts-cross-compilation.html
